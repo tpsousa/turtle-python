@@ -8,6 +8,7 @@ turtle.color("red")
 turtle.speed(0)
 
 #r - raio, a- arco
+'''
 def criar_raio(raio, angulo):
     turtle.circle(raio, angulo)
 
@@ -19,7 +20,7 @@ def desenhar_petala(quantidade_petalas, quantidade_arcos_petala, raio, angulo):
         turtle.left(360 / quantidade_petalas)
 t = turtle.Turtle()
 desenhar_petala(36,2, 100,60)
-
+'''
 #vamos tentar fazer de forma recursiva
 def circulo(raio,angulo):
   turtle.circle(raio,angulo)
@@ -29,8 +30,8 @@ def criar_flor(quantidade_petalas):
         return 
         turtle.done()
     else : 
-       raio  = 100
-       angulo = 60
+       raio  = 200
+       angulo = 45
 
        circulo(raio,angulo)
        turtle.left(120)
